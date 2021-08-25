@@ -8,7 +8,7 @@
   <h1>All books</h1>
   <ul>
     {{ range. }}
-    <li><a href="/books/{{ .Id }}">{{ .Id }}</a></li>
+    <li><a href="/books/{{ .Id }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
 </body>
